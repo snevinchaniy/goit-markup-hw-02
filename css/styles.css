@@ -26,7 +26,9 @@
 body {
   background-color: var(--white-base);
   color: var(--txt-primary);
+
   font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -36,14 +38,13 @@ body {
 /* Шапка лого */
 
 .logo {
+  color: var(--brand-color);
+
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-decoration: none;
-
-  color: var(--brand-color);
 }
 
 .logo-black {
@@ -57,13 +58,13 @@ body {
 /* Шапка посилання */
 
 .link {
+  color: var(--txt-primary);
+
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
-  color: var(--txt-primary);
 }
 
 /* Шапка навігація */
@@ -94,36 +95,32 @@ body {
 }
 
 .hero-title {
+  color: var(--white-base);
+
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  color: var(--white-base);
 }
 
 /* Кнопка Замовити послугу */
 
 .hero-button {
+  background: var(--brand-color);
+
   width: 216px;
   height: 50px;
-
-  background: var(--brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .text-button {
+  color: var(--white-base);
+
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  text-align: center;
+  line-height: 1.88;
   letter-spacing: 0.06em;
-
-  color: var(--white-base);
 }
 
 /* Секції */
@@ -144,33 +141,30 @@ body {
 
 /* Заголовки h2 */
 .section-title {
+  color: var(--txt-primary);
+
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--txt-primary);
 }
 
 /* Переваги */
 
 .benefits-subtitle {
+  color: var(--txt-primary);
+
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
-
-  color: var(--txt-primary);
 }
 
 .benefits-text {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-
   color: var(--txt-secondary);
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Чим ми займаємося */
@@ -181,22 +175,20 @@ body {
 }
 
 .team-subtitle {
+  color: var(--txt-primary);
+
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--txt-primary);
 }
 
 .team-text {
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--txt-secondary);
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /* Підвал */
@@ -208,13 +200,12 @@ body {
 /* Підвал контакти */
 
 .footer-link {
+  color: var(--white-transparency);
+
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   text-decoration: none;
-
-  color: var(--white-transparency);
 }
 
 .maps-link {
